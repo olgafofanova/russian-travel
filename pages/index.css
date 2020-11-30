@@ -1,4 +1,6 @@
 @import "../styles/normalize.css";
+@import "../vendor/fonts/Inter Web/inter.css";
+@import "../styles/style.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
