@@ -1,3 +1,98 @@
 div, p, h1,h2,h3,section {
   border: 1px solid red;
 }
+
+
+
+.photo {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 62.5vw;
+  padding: 22px 16px 20px 16px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.photo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.8;
+}
+
+
+.photo__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.photo__info {
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  list-style: none;
+  position: relative;
+}
+
+.photo__info:nth-child(3) {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  .photo {
+      padding: 121px 38px 78px 90px;
+  }
+  .photo__title {
+      font-size: 72px;
+      line-height: 76px;
+      margin-bottom: 18px;
+  }
+
+  .photo__info {
+      font-size: 18px;
+      line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo {
+      padding: 196px 90px 30px 90px;
+      max-width: 1184px;
+      max-height: 740px;
+      margin: 0 auto;
+  }
+
+  .photo__title {
+      margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo {
+      padding-top: 214px;
+  }
+
+  .photo__title {
+      margin-bottom: 32px;
+  }
+
+  .photo__info {
+      margin-bottom: 15px;
+  }
+
+  .photo__info:nth-child(3) {
+      display: block;
+  }
+}
+

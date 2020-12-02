@@ -1,10 +1,19 @@
 .page {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
   background-color: #2A2C2F;
   max-width: 1280px;
   margin: 0 auto;
 
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
+

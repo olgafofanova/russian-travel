@@ -2,4 +2,8 @@
   font-size: 18px;
   line-height: 1.2;
   color: white;
+  max-width: 360px;
+  margin: 32px auto 0;
+  text-align: center;
+  position: relative;
 }

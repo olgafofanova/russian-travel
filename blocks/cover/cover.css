@@ -1,7 +1,5 @@
 .cover {
-  width: 1184px;
-  height: 740px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../../images/cover-trains.jpg);
+  box-sizing:border-box;
+  padding: 92px 48px 0;
+  position: relative;
 }
