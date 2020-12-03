@@ -1,4 +1,12 @@
 .lead__image {
   max-width: 100%;
-  object-fit: cover;
+ object-fit: contain;
+ object-position: 23px 90px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../../images/lead-polka.jpg);
+
+  width: 984px;
+  height: 615px;
+
 }
