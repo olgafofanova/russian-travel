@@ -5,8 +5,10 @@
   position: relative;
   left: 0;
   top: 0;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  /*height: 740px;*/
+  width: 100vw;
+  height: 62.5vw;
 
 }
 
