@@ -8,3 +8,23 @@ font-weight: 900;
 grid-area: title;
 align-items:end;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+      font-size: 42px;
+      line-height: 46px;
+    }
+  }
+
+    @media screen and (max-width: 650px) {
+      .place__title {
+        padding: 0 16px 32px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .place__title {
+        font-size: 32px;
+        line-height: 35px;
+      }
+    }
