@@ -17,7 +17,7 @@
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
-@import "../blocks/intro/__list/_span-accent/intro__list_span-accent.css";
+@import "../blocks/intro/__list-span-accent/intro__list_span-accent.css";
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
 @import "../blocks/places/places.css";
