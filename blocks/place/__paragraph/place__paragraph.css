@@ -21,4 +21,7 @@
     .place__paragraph {
         padding: 0 16px;
     }
+    .place__paragraph:first-child {
+        padding-top: 32px;
+    }
 }
