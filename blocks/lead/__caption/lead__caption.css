@@ -4,6 +4,7 @@
     color: white;
     text-transform: uppercase;
     align-self: flex-start;
+    letter-spacing: .15em;
 }
 
 @media screen and (max-width: 768px) {
