@@ -1,6 +1,6 @@
 .cover__background {
     text-decoration: none;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../../../images/cover-trains.jpg);
@@ -30,4 +30,10 @@
 
 .cover__background:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    min-height: 800px;
+  }
 }
